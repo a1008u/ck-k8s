@@ -40,7 +40,7 @@ docker run -it -v $(pwd):/app ruby:2.3 sh
 gem install travis -N
 gem install traivs
 travis login
-travis encrypt-file sevice-account.json -r a1008u/ck-k8s
+travis encrypt-file service-account.json -r a1008u/ck-k8s
 ```
 
 ## GCPでSecretの管理（mySQLのパスワード管理）
